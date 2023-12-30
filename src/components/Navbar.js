@@ -10,18 +10,17 @@ const Navbar = () => {
           <span className="text-theme1 text-xl md:text-3xl">
             <HiMenuAlt1 />
           </span>
-          <span className="text-xl md:text-3xl">Qwik</span>
-          
+          <span className="text-xl md:text-4xl font-raleway">Qwik</span>          
         </div>
         <div className="flex gap-2">
           <div className="flex md:gap-2 items-center font-bold text-[9px] md:text-sm leading-none">
             <MdOutlinePhoneInTalk />
-            <span className="cursor-pointer">7865498375</span>
+            <span className="cursor-pointer font-raleway">7865498375</span>
             <IoLocationOutline />
-            <span className="cursor-pointer">Send a Address</span>
+            <span className="cursor-pointer font-raleway ">Send a Address</span>
           </div>
           {/* <div className="flex p-0 justify-center align-center"></div> */}
-          <button className="bg-theme1 text-[8px] md:text-sm rounded-sm  leading-none font-medium p-1">
+          <button className="bg-theme1 font-raleway text-whitecolor text-[8px] md:text-sm rounded-sm  leading-none font-medium px-2 ">
             Book An Appointment
           </button>
         </div>

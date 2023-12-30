@@ -5,18 +5,18 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'sans': ['ui-sans-serif', 'system-ui'],
-      'system':['system-ui'],
-      'serif': ['Segoe UI Symbol', 'Georgia'],
-      'mono': ['monospace'],
-      'display': ['Oswald'],
-      'body': ['Open Sans'],
-      'raleway': ['Raleway', 'sans-serif']
+      
+      'system':['system-ui', 'ui-sans-serif'],    
+      'raleway': ['Raleway', 'sans-serif'],
+      'poppins':['Poppins', 'sans-serif'],
+      'roboto':['Roboto']
 
     },
     extend: {
       colors:{
-        "theme1": "#FFC000	",
+        "theme1": "#257278",
+        "themeblack":"black",
+        "whitecolor":"white"
       }
     },
   },
